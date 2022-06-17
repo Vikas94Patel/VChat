@@ -211,3 +211,15 @@ button:disabled {
   font-weight: 300;
   padding: 12px 24px 0 24px;
 }
+
+/* ********************** MEDIA QUERIES (SMALL DEVICES) ******************* */
+@media screen and (max-width: 600px) {
+  #message-form {
+    display: block;
+  }
+
+  .compose button {
+    align-items: center;
+    margin: 5px 5px 5px 0;
+  }
+}
